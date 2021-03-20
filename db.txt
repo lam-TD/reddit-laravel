@@ -1,0 +1,15 @@
+users: user_id, user_name, email, password, avatar
+posts: post_id, title, conents, slug
+comments: comment_id, contents, user_id, post_id, comment_parent
+votes: id, status: up or down, type: {user_id, post_id, comment_id}
+images: id, type: {user, post, comment}
+    - user: avatar, albums
+    - post: 
+    - comment:
+
+topics:
+
+reports:
+    - user
+    - post
+    - comment
